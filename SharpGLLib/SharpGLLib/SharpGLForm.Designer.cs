@@ -41,21 +41,24 @@
 			this.openGLControl.OpenGLVersion = SharpGL.Version.OpenGLVersion.OpenGL2_1;
 			this.openGLControl.RenderContextType = SharpGL.RenderContextType.FBO;
 			this.openGLControl.RenderTrigger = SharpGL.RenderTrigger.TimerBased;
-			this.openGLControl.Size = new System.Drawing.Size(624, 391);
+			this.openGLControl.Size = new System.Drawing.Size(484, 462);
 			this.openGLControl.TabIndex = 0;
 			this.openGLControl.OpenGLInitialized += new System.EventHandler(this.openGLControl_OpenGLInitialized);
 			this.openGLControl.OpenGLDraw += new SharpGL.RenderEventHandler(this.openGLControl_OpenGLDraw);
 			this.openGLControl.Resized += new System.EventHandler(this.openGLControl_Resized);
 			this.openGLControl.Load += new System.EventHandler(this.openGLControl_Load);
+			this.openGLControl.MouseDown += new System.Windows.Forms.MouseEventHandler(this.SharpGLForm_MouseDown);
 			// 
 			// SharpGLForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(624, 391);
+			this.ClientSize = new System.Drawing.Size(484, 462);
 			this.Controls.Add(this.openGLControl);
 			this.Name = "SharpGLForm";
 			this.Text = "SharpGL Form";
+			this.Load += new System.EventHandler(this.SharpGLForm_Load);
+			this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.SharpGLForm_MouseDown);
 			((System.ComponentModel.ISupportInitialize)(this.openGLControl)).EndInit();
 			this.ResumeLayout(false);
 
