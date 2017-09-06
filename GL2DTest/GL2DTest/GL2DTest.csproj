@@ -57,6 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GLUI.cs" />
+    <Compile Include="Menu Classes\MenuControls\Button.cs" />
+    <Compile Include="Menu Classes\MenuControls\UIControl.cs" />
+    <Compile Include="Menu Classes\MenuModes.cs" />
+    <Compile Include="Menu Classes\Menus.cs" />
     <Compile Include="SharpGLForm.cs">
       <SubType>Form</SubType>
     </Compile>
