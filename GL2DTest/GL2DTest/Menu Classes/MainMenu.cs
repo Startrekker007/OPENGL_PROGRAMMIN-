@@ -5,10 +5,8 @@ using System.Text;
 
 namespace GL2DTest.Menu_Classes
 {
-	interface Menus
+	class MainMenu
 	{
-		bool checkCursorOn();
-		bool draw();
-
+		
 	}
 }
