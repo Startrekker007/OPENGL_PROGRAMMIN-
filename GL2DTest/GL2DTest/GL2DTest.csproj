@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GLUI.cs" />
+    <Compile Include="ImagingTools.cs" />
     <Compile Include="Menu Classes\MainMenu.cs" />
     <Compile Include="Menu Classes\MenuControls\Button.cs" />
     <Compile Include="Menu Classes\MenuControls\UIControl.cs" />
